@@ -1,0 +1,97 @@
+/*
+1.  Font-Family
+    mengatur jenis font yang akan digunakan
+
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+2.  Font-Size
+    mengatur ukuran font
+    value: px, %, em
+
+
+    h1 {
+        font-size: 100px;
+    }
+
+    p {
+        font-size: 20%;
+    }
+
+
+3.  Font-Weight
+    mengatur ketebalan font
+    value: lighter, normal, 100-900, bold, bolder.
+
+
+    p {
+        font-weight: normal;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+4.  Font-Variant
+    mengubah font menjadi small caps
+    value: normal, small caps.
+
+
+    h1 {
+        font-variant: small-caps;
+    }
+
+
+5.  Font-Style
+    mengubah font menjadi bercetak miring
+    value: normal, italic, oblique.
+
+
+    p {
+        font-style: italic;
+    }
+
+    p {
+        font-style: oblique;
+    }
+
+
+6.  Line-Height
+    mengatur spasi antar baris
+
+
+    p {
+        line-height: 25px;
+    }
+*/
+
+
+/*Properti bisa digunakan dengan shorthand:
+ex:
+    body {
+        font-style: italic;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        font: italic normal bold 20px/18px helvetica, arial;
+    }
+
+    note: arrangement must right from left to end.
+    font: style, variant, weight, size/line height, family;
+*/  
+
+    h1 {
+        font: italic small-caps bold 50px arial;
+    }

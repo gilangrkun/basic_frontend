@@ -1,0 +1,36 @@
+/* 
+properti pada background ada 4, yaitu:
+color, image, position, and repeat.
+*/
+
+/* 
+1.  background color value 
+    background-color: lightblue;
+    background-color: #ff0000;
+    background-color: rgb(9,73,28);
+*/
+
+/* 
+2.  background image and repeat value
+    background-image: url(image.jpg);
+
+        kadang2 tidak ingin seluruh body:
+        background-repeat: repeat-x, repeat-y, no-repeat;
+*/
+
+/* 
+    jika image no-repeat, maka dapat diubah posisi.
+3.  background position value
+    background-position: top left, top center, top right;
+    background-position: center left, center center, center right;
+    background-position: bottom left, bottom center, bottom right;
+    background-position: x% y%, x-pos y-pos;
+*/
+
+/* 
+    background bisa di shorthand sesuai urutan berikut,
+    background: color url() position repeat;
+*/
+    body {
+        background: url(images/white-waves.png);
+    }

@@ -1,0 +1,21 @@
+/* 
+    merupakan properti yang digunakan pada 
+    style semu untuk sebuah element.
+*/
+
+/* 
+    pseudoclass untuk element a atau link memiliki
+    beberapa value, yaitu:
+    :link, :hover, :active, :visited
+*/
+.a:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.b:hover{
+    color: orangered;
+    font-size: 20px;
+}
+

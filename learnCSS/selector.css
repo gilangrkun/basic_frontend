@@ -1,0 +1,41 @@
+/* 
+    selector dipakai untuk mengidentifikasi
+    element di html. namun selain dari elemmen html,
+    selector juga dapat mengidentifikasi:
+    id, class, complex selector.
+*/
+
+    ol li a {
+    color: indigo;
+    font-weight: bold;
+}
+
+    ul li a {
+    color: green;
+    font-weight: bold;
+}
+
+    #p1 {
+        color: hotpink;
+    }
+
+    #p2 {
+        font-style: italic;
+    }
+
+    .p {
+        font-size: 30px;
+    }
+
+    .q  {
+        letter-spacing: 5px;
+    }
+/* 
+    perbedaan id dan class:
+    1a.  satu element html hanya boleh 1 nama id.
+    1b. satu element bisa 2 nama class.
+    2.  setiap halaman hanya boleh memiliki 1 element dengan id tsb.
+    3.  dapat digunakan sebagai penanda halaman untuk link.
+    4.  digunakan juga untuk javascript
+    5.  sebaiknya tdk digunakan untuk CSS (mending class kalo CSS).
+*/

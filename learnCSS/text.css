@@ -1,0 +1,45 @@
+/* 
+text beda dengan font. properti dari text yaitu:
+(color, align, indent, decoration, transform, letter spacing, word spacing).
+*/
+
+/* 
+1.  color value
+    color: red, blue, green;
+    color: #ff0000, #20b2aa;
+    color: rgb (255,0,0), rgb (32,100,90);
+*/
+
+/* 
+2.  align value
+    text-align: right, center, left, justify;
+*/
+
+/* 
+3.  indent value
+    text-indent: 50px, 30%;
+*/
+
+/* 
+4.  decoration value
+    text-decoration: none, underline, overline, line-through;
+*/
+
+/* 
+5.  transform value
+    text-transform: none, lowercase, uppercase, capitalize;
+*/
+
+/* 
+6.  letter spacing & word spacing value
+    letter-spacing: 5px, 10%;
+    word-spacing: 10px, 4%;
+*/
+
+    h2 {
+        color: hotpink;
+        text-decoration: line-through;
+        letter-spacing: 10px;
+        word-spacing: 5px;
+        text-transform: uppercase;
+    }
