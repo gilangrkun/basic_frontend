@@ -1,0 +1,25 @@
+.first {
+    background-color: lightsalmon;
+    width: 250px;
+}
+
+.second {
+    width: 100px;
+    background-color: lightseagreen;
+    
+}
+
+.third li {
+    display: inline-block;
+    background-color: yellow; 
+    width: 80px;
+    height: 80px;   
+}
+
+/* 
+    display ada 2, inline yang nambah ke kanan,
+    block yang nambah ke bawah.
+
+    element inline: b,strong,i,em,a,span,sub,sup,button,input,label,select,textarea,..
+    element block: hi-h6,p,ol,ul,li,form,hr,div..
+*/
