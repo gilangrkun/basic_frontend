@@ -1,0 +1,108 @@
+body {
+    background-color: gainsboro;
+    background-image: url(img/flor.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    margin: auto;
+}
+
+.header .domain {
+    font-size: 30px;
+    color: teal;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25px;
+    padding: 5px 15px;
+}
+
+.header .list {
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.header .list li {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 15px 0;
+}
+
+.header .list li a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    padding: 1px 4px;
+}
+
+.header .list li a:hover {
+    color: whitesmoke;
+    background-color: teal;
+    padding: 1px 5px;
+}
+
+.image  {
+    height: 250px;
+    background-image: url(img/mango.png);
+    border-top: 4px solid teal;
+    border-bottom: 4px solid tomato;
+    background-position: -100px -150px;
+    margin-bottom: 25px;
+}
+
+.body {
+    margin: 15px 0;
+    padding: 5px 15px;
+}
+
+.body .title {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.body p {
+    font-size: 14px;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 15px 20px;
+    padding: 12px 20px;
+}
+
+.body .author {
+    font-size: 10px;
+    color: black;
+    margin: 0 0;
+    margin-bottom: 15px;
+    text-indent: 0;
+    padding: 0 0;
+}
+
+.body .author a {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1px 1px;
+}
+
+.body .author a:hover {
+    background-color: tomato;
+    color: whitesmoke;
+    padding: 1px 1px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 5px 0;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 11px;
+}
